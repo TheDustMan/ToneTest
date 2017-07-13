@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                     username: '<%= secret.credentials.username %>',
                     password: '<%= secret.credentials.password %>',
                     port: '<%= secret.credentials.port %>',
-                    deploy_path: '/home/dustman/dustweb.org/javascript/workflow/project1/staging',
+                    deploy_path: '/home/dustman/dustweb.org/javascript/projects/ToneTest',
                     debug: true,
                     release_to_keep: '5'
                 }
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
                     username: '<%= secret.credentials.username %>',
                     password: '<%= secret.credentials.password %>',
                     port: '<%= secret.credentials.port %>',
-                    deploy_path: '/home/dustman/dustweb.org/javascript/workflow/project1/production',
+                    deploy_path: '/home/dustman/dustweb.org/javascript/projects/ToneTest',
                     release_to_keep: '5'
                 }
             }

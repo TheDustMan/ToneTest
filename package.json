@@ -1,25 +1,25 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "TemplateProject",
+  "description": "ToneTest",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheDustMan/JavascriptProjectTemplate.git"
+    "url": "https://github.com/TheDustMan/ToneTest.git"
   },
   "keywords": [
     "javascript",
-    "template"
+    "Tone.js"
   ],
   "author": "DustMan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TheDustMan/JavascriptProjectTemplate/issues"
+    "url": "https://github.com/TheDustMan/ToneTest/issues"
   },
-  "homepage": "https://github.com/TheDustMan/JavascriptProjectTemplate",
+  "homepage": "https://github.com/TheDustMan/ToneTest",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
@@ -30,6 +30,7 @@
     "path": "^0.12.7"
   },
   "dependencies": {
+    "tone": "^0.10.0",
     "underscore": "^1.8.3"
   }
 }
